@@ -17,5 +17,5 @@ Properties/PublishProfiles/
 # App data
 App_Data/
 
-# Sensitive configs (isteğe bağlı)
+# Sensitive configs 
 Web.config
