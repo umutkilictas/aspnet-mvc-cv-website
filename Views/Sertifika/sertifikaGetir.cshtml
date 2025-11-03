@@ -1,0 +1,17 @@
+﻿@model Cv_MVC.Models.Entity.Table_Sertifikalarim
+
+@{
+    ViewBag.Title = "sertifikaGetir";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h4>Yetenek Guncelle</h4>
+<br />
+<form method="post">
+    @Html.Label("Baslik")
+    @Html.TextBoxFor(x => x.Aciklama, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Guncelle</button>
+</form>
+

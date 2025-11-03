@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+*.pdb
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Publish profiles
+Properties/PublishProfiles/
+*.Publish.xml
+
+# App data
+App_Data/
+
+# Sensitive configs (isteğe bağlı)
+Web.config
