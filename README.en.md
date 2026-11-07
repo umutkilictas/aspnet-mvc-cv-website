@@ -54,7 +54,12 @@ flowchart LR
   <img width="850" alt="Public Resume Page" src="https://github.com/user-attachments/assets/2b5fceb2-a91d-4ff4-b433-c916af973f16" />
 </p>
 
-### 2. Admin Panel (`/Deneyim/Index`, `/Yetenek/Index`, `/Sertifika/Index`)
+### 2. Admin Login Page (`/Login/Index`)
+<p align="center">
+  <img width="850" alt="Admin Login Page" src="https://github.com/user-attachments/assets/c420752b-fb6f-4aeb-a134-668307c1c8ac" />
+</p>
+
+### 3. Admin Panel (`/Deneyim/Index`, `/Yetenek/Index`, `/Sertifika/Index`)
 <p align="center">
   <img width="850" alt="Admin Panel" src="https://github.com/user-attachments/assets/038a6c6e-a757-4549-b903-0e79fd9eb46d" />
 </p>

@@ -56,7 +56,7 @@ flowchart LR
 
 ### 2. Yönetici Giriş Ekranı (`/Login/Index`)
 <p align="center">
-  <img width="850" alt="Admin Giriş Sayfası" src="https://github.com/user-attachments/assets/c420752b-fb6f-4aeb-a134-c916af973f16" />
+  <img width="850" alt="Admin Giriş Sayfası" src="https://github.com/user-attachments/assets/c420752b-fb6f-4aeb-a134-668307c1c8ac" />
 </p>
 
 ### 3. Yönetim Paneli (`/Deneyim/Index`, `/Yetenek/Index`, `/Sertifika/Index`)
