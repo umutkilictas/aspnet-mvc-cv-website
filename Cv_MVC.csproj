@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E48DECAF-F03E-4001-8620-71340A1B2C3D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cv_MVC</RootNamespace>
+    <AssemblyName>Cv_MVC</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework" />
+    <Reference Include="EntityFramework.SqlServer" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc" />
+    <Reference Include="System.Web.Optimization" />
+    <Reference Include="System.Web.Routing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\DeneyimController.cs" />
+    <Compile Include="Controllers\EgitimController.cs" />
+    <Compile Include="Controllers\HakkimdaController.cs" />
+    <Compile Include="Controllers\HobiController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IletisimController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\SertifikaController.cs" />
+    <Compile Include="Controllers\SosyalMedyaController.cs" />
+    <Compile Include="Controllers\YetenekController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entity\Model1.Context.cs" />
+    <Compile Include="Models\Entity\Table_Admin.cs" />
+    <Compile Include="Models\Entity\Table_Deneyimlerim.cs" />
+    <Compile Include="Models\Entity\Table_Egitimlerim.cs" />
+    <Compile Include="Models\Entity\Table_Hakkimda.cs" />
+    <Compile Include="Models\Entity\Table_Hobilerim.cs" />
+    <Compile Include="Models\Entity\Table_Iletisim.cs" />
+    <Compile Include="Models\Entity\Table_Sertifikalarim.cs" />
+    <Compile Include="Models\Entity\Table_SosyalMedya.cs" />
+    <Compile Include="Models\Entity\Table_Yeteneklerim.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AdminRepository.cs" />
+    <Compile Include="Repositories\DeneyimRepository.cs" />
+    <Compile Include="Repositories\EgitimRepository.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\HakkimdaRepository.cs" />
+    <Compile Include="Repositories\HobiRepository.cs" />
+    <Compile Include="Repositories\IletisimRepository.cs" />
+    <Compile Include="Repositories\SertifikaRepository.cs" />
+    <Compile Include="Repositories\SosyalMedyaRepository.cs" />
+    <Compile Include="Repositories\YetenekRepository.cs" />
+  </ItemGroup>
+</Project>

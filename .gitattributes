@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+AdminLTE-3.0.4/** linguist-vendored
+login-form-20/** linguist-vendored
+startbootstrap-resume-gh-pages/** linguist-vendored
+Scripts/** linguist-vendored
+Content/** linguist-vendored
